@@ -16,19 +16,10 @@ class VideoFormatSelector:
                 "format": ([
                     "Landscape - 16:9 (480p)",
                     "Landscape - 16:9 (720p)",
-                    "Landscape - 16:9 (1080p)",
                     "Portrait - 9:16 (480p)",
                     "Portrait - 9:16 (720p)",
-                    "Portrait - 9:16 (1080p)",
                     "Square - 1:1 (512px)",
-                    "Square - 1:1 (768px)",
-                    "Square - 1:1 (1080px)",
-                    "Cinematic - 21:9 (480p)",
-                    "Cinematic - 21:9 (1080p)",
-                    "Instagram - 4:5 (1080px)",
-                    "TikTok - 9:16 (1080px)",
-                    "YouTube - 16:9 (1080p)",
-                    "Custom Resolution"
+                    "Square - 1:1 (768px)"
                 ], {"default": "Landscape - 16:9 (720p)"}),
                 "frames": ("INT", {"default": 33, "min": 1, "max": 240, "step": 1}),
                 "batch_size": ("INT", {"default": 1, "min": 1, "max": 4, "step": 1}),
